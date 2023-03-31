@@ -2,7 +2,7 @@
 marp: true
 paginate: true
 _paginate: false
-footer: 'MO601 - Arquitetura de Computadores II'
+footer: 'MO601 - Arquitetura de Computadores II - Rodolfo Azevedo - CC BY-SA 4.0'
 headingDivider: 2
 ---
 # Visão Geral

@@ -3,7 +3,7 @@ site_author: Rodolfo Azevedo
 site_description: Material didático da disciplina MO601 do Instituto de Computação da Unicamp
 repo_name: mo601-2023s1
 repo_url: https://github.com/rjazevedo/mo601-2023s1
-copyright: Copyright &copy; 2023 - Rodolfo Azevedo
+copyright: CC BY-SA 4.0 - Rodolfo Azevedo
 theme: 
   name: material
   highlightjs: true
