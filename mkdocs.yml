@@ -1,0 +1,86 @@
+site_name: MO601 - Arquitetura de Computadores II
+site_author: Rodolfo Azevedo
+site_description: Material didático da disciplina MO601 do Instituto de Computação da Unicamp
+repo_name: mo601-2023s1
+repo_url: https://github.com/rjazevedo/mo601-2023s1
+copyright: Copyright &copy; 2023 - Rodolfo Azevedo
+theme: 
+  name: material
+  highlightjs: true
+  language: pt-BR
+  features:
+    - content.code.copy
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - navigation.footer
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format  
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - tables
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/@rjazevedo
+    - icon: fontawesome/brands/github
+      link: https://github.com/rjazevedo
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rjazevedo
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/rjazevedo
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - search
+  - pdf-export:
+      enabled_if_env: ENABLE_PDF_EXPORT
+  - table-reader
+  - autolinks
+nav:
+  - Apresentação: index.md
+  - Calendário: calendario.md
+  - Aulas:
+    - Apresentação da Disciplina: slides/apresentacao.md
+    - Benchmarks: slides/01-benchmarks.md
+    - RISC-V: slides/02-RISC-V.md
+    - Visão Geral: slides/03-VisãoGeral.md
+    - Caches: slides/04-Caches.md
+    - Fetch Unit: slides/05-Fetch-Unit.md
+    - Decoder: slides/06-Decoder.md
+    - Allocation: slides/07-Allocation.md
+    - Issue: slides/08-Issue.md
+    - Execute: slides/09-Execute.md
+  - Artigos: artigos.md
+  - Projeto 1: projeto1.md
+  - Projeto 2: projeto2.md
+  - Projeto 3: projeto3.md
+  - Projeto 4: projeto4.md
+  

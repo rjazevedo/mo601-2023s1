@@ -1,0 +1,21 @@
+---
+title: Fluxo de compilação e execução de um programa
+---
+flowchart LR
+  cf(Código Fonte)
+  c[Compilador]
+  a(Assembly)
+  m[Montador]
+  o(Objeto)
+  l[Ligador]
+
+subgraph Compilação
+  cf --> c --> a --> m --> o
+end
+e(Executável) --> s(Saída) --> comp{comparação}
+be(Bibliotecas Estáticas) --> l
+bd(Bibliotecas Dinâmicas) --> e
+ent(Entrada) --> e
+esp(Saída Esperada) --> comp
+
+Compilação --> l --> e
