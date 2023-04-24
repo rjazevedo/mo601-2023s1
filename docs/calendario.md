@@ -10,13 +10,13 @@
 |qua, 22/mar| [Issue](../slides/08-Issue) ([PDF](../slides/08-Issue.pdf)/[HTML](../slides/08-Issue.html))|
 |seg, 27/mar| [Execute](../slides/09-Execute) ([PDF](../slides/09-Execute.pdf)/[HTML](../slides/09-Execute.html))|
 |qua, 29/mar| [Commit](../slides/10-Commit) ([PDF](../slides/10-Commit.pdf)/[HTML](../slides/10-Commit.html)) - Entrega do Projeto 1 e Artigo 1|
-|seg, 03/abr| Apresentações de artigos (RAs): (215720 e 257390), (218548)|
+|seg, 03/abr| Apresentações de artigos (RAs): (215720 e 257390), (218548), (240342)|
 |qua, 05/abr| Apresentações de artigos (RAs): (225462), (217146), (231900)|
 |seg, 10/abr| Apresentações de artigos (RAs): (233243), (212328 e 216392), (235970 e 236769)|
-|qua, 12/abr| Apresentações de artigos (RAs): (264953), (238077 e 220792), (240342)|
-|seg, 17/abr| |
-|qua, 19/abr| |
-|seg, 24/abr| |
+|qua, 12/abr| Apresentações de artigos (RAs): (264953), (238077 e 220792)|
+|seg, 17/abr| [Coerência de Cache](../slides/11-Cache-Coherence) ([PDF](../slides/11-Cache-Coherence.pdf)/[HTML](../slides/11-Cache-Coherence.html))|
+|qua, 19/abr| [Desempenho](../slides/12-Performance) ([PDF](../slides/12-Performance.pdf)/[HTML](../slides/12-Performance.html))|
+|seg, 24/abr| [Workload Design](../slides/13-Workload-Design) ([PDF](../slides/13-Workload-Design.pdf)/[HTML](../slides/13-Workload-Design.html))|
 |qua, 26/abr| Entrega do Projeto 2 e Artigo 2|
 |seg, 01/mai| |
 |qua, 03/mai| |
