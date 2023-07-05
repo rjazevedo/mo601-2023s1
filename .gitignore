@@ -7,3 +7,10 @@ MC973*.csv
 .vscode
 *.ods
 *.html
+src
+docs/slides/*.pdf
+docs/slides/*.html
+p1
+p2
+p3
+p4

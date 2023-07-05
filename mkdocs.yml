@@ -18,9 +18,34 @@ theme:
     - navigation.top
     - navigation.footer
 markdown_extensions:
+  - abbr
   - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
   - pymdownx.details
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
   - pymdownx.highlight:
       linenums: true
       anchor_linenums: true
@@ -32,10 +57,6 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format  
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
-      clickable_checkbox: true
   - tables
 extra:
   social:
@@ -60,10 +81,10 @@ extra:
         name: Switch to light mode
 plugins:
   - search
-  - pdf-export:
-      enabled_if_env: ENABLE_PDF_EXPORT
-  - table-reader
-  - autolinks
+  # - pdf-export:
+  #     enabled_if_env: ENABLE_PDF_EXPORT
+  # - table-reader
+  # - autolinks
 nav:
   - Apresentação: index.md
   - Calendário: calendario.md
@@ -78,6 +99,12 @@ nav:
     - Allocation: slides/07-Allocation.md
     - Issue: slides/08-Issue.md
     - Execute: slides/09-Execute.md
+    - Commit: slides/10-Commit.md
+    - Cache Coherence: slides/11-Cache-Coherence.md
+    - Performance Evaluation: slides/12-Performance.md
+    - Workload Design: slides/13-Workload-Design.md
+    - Simpoints: slides/14-Simpoints.md
+    - Memory: slides/15-Memory.md
   - Artigos: artigos.md
   - Projeto 1: projeto1.md
   - Projeto 2: projeto2.md
